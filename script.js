@@ -1,8 +1,12 @@
-let x = 10;
-let y = 10;
+let Personne = {
+    nom: ['Admeo', 'Golven'],
+    age: 21,
+    mail: 'loadgoca@gmail.com',
 
-if ('') {
-    console.log(`x égale à ${x}`)
-} else {
-    console.log(`y egale à ${y}`)
-}
+    bonjour: function() {
+        console.log('Bienvenue ' + this.nom[0])
+    }
+
+};
+
+Personne.bonjour();
